@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="containerr">
+        <div class="cajaTextarea">
+            <textarea
+                name="texto"
+                class="textOne"
+                id="textOne"
+                cols="30"
+                rows="10"
+                placeholder="Ingrese el Texto Encripar">
+                </textarea>
+
+            <div class="cajaBotones">
+                <button class="btn1"
+                    type="button"
+                    onclick="encriptarTexto();">Encriptar
+                </button>
+
+            </div>
+        </div>
+
+       
+
+    </div>
+    <div class="copia">
+        <textarea
+            name="texto"
+            class="textOne"
+            id="textOne"
+            cols="30"
+            rows="10"
+            placeholder="Ingrese el Texto Encripar">
+            </textarea>
+    </div>
+</div>
+
+
+padding: 5px 5px;
+margin: 2%;
+background: black;
+text-align: center;
+width: auto;
+font-style: italic;
+display: flex;
